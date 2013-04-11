@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 11 Apr 2013 15:03:05 EST
+EESchema Schematic File Version 2  date Thu 11 Apr 2013 15:52:58 EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,9 +31,9 @@ LIBS:contrib
 LIBS:valves
 LIBS:freetronics_kicad_sch_lib
 LIBS:EtherDue-cache
-EELAYER 25  0
+EELAYER 24 0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 1 6
 Title ""
@@ -150,13 +150,8 @@ Wire Wire Line
 Wire Wire Line
 	3150 4000 3150 1650
 Connection ~ 3150 1650
-$Sheet
-S 7450 1050 1550 2100
-U 51651351
-F0 "Ethernet" 60
-F1 "EtherDue_Ethernet.sch" 60
-F2 "/MASTER-RESET" I L 7450 1300 60 
-$EndSheet
+Text Notes 650  6150 0    60   ~ 0
+Labelling scheme: Use Global labels for simple 1:1 I/O pin<->MCU connectors, hierarchical labels for all other inter-sheet connections.
 $Sheet
 S 1100 1050 1650 2050
 U 515B960F
@@ -175,6 +170,18 @@ F11 "D+" I L 1100 2800 60
 F12 "D-" I L 1100 2900 60 
 F13 "UOTGID" I L 1100 3000 60 
 F14 "/MASTER-RESET" I R 2750 1650 60 
+$EndSheet
+$Sheet
+S 4000 1050 1750 2050
+U 515BC885
+F0 "Mega16U2" 60
+F1 "EtherDue_Mega16U2.sch" 60
+F2 "TX" I L 4000 1250 60 
+F3 "RX" I L 4000 1400 60 
+F4 "USBVCC" I R 5750 2750 60 
+F5 "/ERASE_CMD" I L 4000 1850 60 
+F6 "/MASTER-RESET" I L 4000 1650 60 
+F7 "USBVCCU2" I R 5750 2850 60 
 $EndSheet
 $Sheet
 S 1150 3450 1850 2100
@@ -203,18 +210,11 @@ F6 "VDDOUT" I L 4000 3750 60
 F7 "VDDOUTMI" I L 4000 3950 60 
 F8 "VDDANA" I L 4000 3850 60 
 $EndSheet
-Text Notes 650  6150 0    60   ~ 0
-Labelling scheme: Use Global labels for simple 1:1 I/O pin<->MCU connectors, hierarchical labels for all other inter-sheet connections.
 $Sheet
-S 4000 1050 1750 2050
-U 515BC885
-F0 "Mega16U2" 60
-F1 "EtherDue_Mega16U2.sch" 60
-F2 "TX" I L 4000 1250 60 
-F3 "RX" I L 4000 1400 60 
-F4 "USBVCC" I R 5750 2750 60 
-F5 "/ERASE_CMD" I L 4000 1850 60 
-F6 "/MASTER-RESET" I L 4000 1650 60 
-F7 "USBVCCU2" I R 5750 2850 60 
+S 7450 1050 1550 2100
+U 51651351
+F0 "Ethernet" 60
+F1 "EtherDue_Ethernet.sch" 60
+F2 "/MASTER-RESET" I L 7450 1300 60 
 $EndSheet
 $EndSCHEMATC
