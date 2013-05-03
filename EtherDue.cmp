@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Fri 03 May 2013 10:41:18 EST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Fri 03 May 2013 15:34:36 EST
 
 BeginCmp
 TimeStamp = /515B960F/515BA78B;
@@ -445,7 +445,7 @@ BeginCmp
 TimeStamp = /515CC1F3/515CD367;
 Reference = D502;
 ValeurCmp = CD1206-S01575;
-IdModule  = SM1206POL;
+IdModule  = LED-1206;
 EndCmp
 
 BeginCmp
@@ -543,7 +543,7 @@ BeginCmp
 TimeStamp = /515D07DB/5163A5C8;
 Reference = JP401;
 ValeurCmp = M02X05;
-IdModule  = PIN_ARRAY_5x2;
+IdModule  = 2X5_127MMPITCH;
 EndCmp
 
 BeginCmp
@@ -641,21 +641,21 @@ BeginCmp
 TimeStamp = /515BC885/515BD282;
 Reference = P301;
 ValeurCmp = USB_5PIN_SHELL;
-IdModule  = USB-MICROB;
+IdModule  = USB-MICRO_TH_4PEGS;
 EndCmp
 
 BeginCmp
 TimeStamp = /515D07DB/5163A763;
 Reference = P401;
 ValeurCmp = USB_5PIN_SHELL;
-IdModule  = USB-MICROB;
+IdModule  = USB-MICRO_TH_4PEGS;
 EndCmp
 
 BeginCmp
 TimeStamp = /515CC1F3/515CD8B1;
 Reference = Q501;
 ValeurCmp = BC847BSMD;
-IdModule  = SOT23;
+IdModule  = SOT23EBC;
 EndCmp
 
 BeginCmp
@@ -907,7 +907,7 @@ BeginCmp
 TimeStamp = /515B960F/515CF01A;
 Reference = U202;
 ValeurCmp = FDN340P;
-IdModule  = SOT23;
+IdModule  = SOT23_MOSFET;
 EndCmp
 
 BeginCmp
@@ -935,14 +935,14 @@ BeginCmp
 TimeStamp = /515CC1F3/515CDBB8;
 Reference = U503;
 ValeurCmp = FDN340P;
-IdModule  = SOT23;
+IdModule  = SOT23_MOSFET;
 EndCmp
 
 BeginCmp
 TimeStamp = /515CC1F3/515CDBE7;
 Reference = U504;
 ValeurCmp = FDN340P;
-IdModule  = SOT23;
+IdModule  = SOT23_MOSFET;
 EndCmp
 
 BeginCmp

@@ -1,4 +1,5 @@
-EESchema Schematic File Version 2  date Fri 03 May 2013 10:36:30 EST
+EESchema Schematic File Version 2  date Fri 03 May 2013 15:34:29 EST
+LIBS:freetronics_kicad_sch_lib
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,7 +30,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:freetronics_kicad_sch_lib
 LIBS:EtherDue-cache
 EELAYER 24 0
 EELAYER END
@@ -508,12 +508,12 @@ $Comp
 L INDUCTOR L602
 U 1 1 51663ACC
 P 5500 6600
-F 0 "L602" V 5450 6600 40  0000 C CNN
-F 1 "1uH 250mA" V 5600 6600 40  0000 C CNN
+F 0 "L602" H 5450 6700 40  0000 C CNN
+F 1 "1uH 250mA" H 5500 6550 40  0000 C CNN
 F 2 "" H 5500 6600 60  0001 C CNN
 F 3 "" H 5500 6600 60  0001 C CNN
 	1    5500 6600
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR084
@@ -558,12 +558,12 @@ $Comp
 L INDUCTOR L601
 U 1 1 51663A74
 P 3500 6600
-F 0 "L601" V 3450 6600 40  0000 C CNN
-F 1 "1uH 250mA" V 3600 6600 40  0000 C CNN
+F 0 "L601" H 3500 6550 40  0000 C CNN
+F 1 "1uH 250mA" H 3500 6700 40  0000 C CNN
 F 2 "" H 3500 6600 60  0001 C CNN
 F 3 "" H 3500 6600 60  0001 C CNN
 	1    3500 6600
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L C C606

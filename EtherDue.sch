@@ -1,4 +1,5 @@
-EESchema Schematic File Version 2  date Thu 11 Apr 2013 16:32:55 EST
+EESchema Schematic File Version 2  date Fri 03 May 2013 15:34:29 EST
+LIBS:freetronics_kicad_sch_lib
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,7 +30,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:freetronics_kicad_sch_lib
 LIBS:EtherDue-cache
 EELAYER 24 0
 EELAYER END
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 6
 Title ""
-Date "11 apr 2013"
+Date "3 may 2013"
 Rev ""
 Comp ""
 Comment1 ""

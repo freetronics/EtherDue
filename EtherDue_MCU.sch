@@ -1,4 +1,5 @@
-EESchema Schematic File Version 2  date Thu 11 Apr 2013 16:32:55 EST
+EESchema Schematic File Version 2  date Fri 03 May 2013 15:34:29 EST
+LIBS:freetronics_kicad_sch_lib
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,7 +30,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:freetronics_kicad_sch_lib
 LIBS:EtherDue-cache
 EELAYER 24 0
 EELAYER END
@@ -37,7 +37,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 6
 Title ""
-Date "11 apr 2013"
+Date "3 may 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -109,17 +109,15 @@ Wire Wire Line
 	3000 4350 2700 4350
 Wire Wire Line
 	2700 4350 2700 4450
-Connection ~ 3750 3750
 Wire Wire Line
 	5650 3500 4250 3500
 Wire Wire Line
 	4250 3500 4250 3750
 Wire Wire Line
 	4250 3750 3400 3750
-Connection ~ 3000 3000
+Connection ~ 3000 3200
 Wire Wire Line
 	3000 3750 3000 2700
-Connection ~ 3750 2700
 Wire Wire Line
 	3400 2700 4250 2700
 Wire Wire Line
@@ -311,14 +309,6 @@ Wire Wire Line
 	4800 3200 5000 3200
 Wire Wire Line
 	4250 3400 5650 3400
-Wire Wire Line
-	3750 2700 3750 2850
-Wire Wire Line
-	3000 3000 2700 3000
-Wire Wire Line
-	2700 3000 2700 3100
-Wire Wire Line
-	3750 3750 3750 3450
 Wire Wire Line
 	3000 4150 3000 4900
 Wire Wire Line
@@ -1022,12 +1012,12 @@ $EndComp
 $Comp
 L GND #PWR010
 U 1 1 515BA7A2
-P 2700 3100
-F 0 "#PWR010" H 2700 3100 30  0001 C CNN
-F 1 "GND" H 2700 3030 30  0001 C CNN
-F 2 "" H 2700 3100 60  0001 C CNN
-F 3 "" H 2700 3100 60  0001 C CNN
-	1    2700 3100
+P 2700 3300
+F 0 "#PWR010" H 2700 3300 30  0001 C CNN
+F 1 "GND" H 2700 3230 30  0001 C CNN
+F 2 "" H 2700 3300 60  0001 C CNN
+F 3 "" H 2700 3300 60  0001 C CNN
+	1    2700 3300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1051,17 +1041,6 @@ F 2 "" H 3200 2700 60  0001 C CNN
 F 3 "" H 3200 2700 60  0001 C CNN
 	1    3200 2700
 	0    -1   -1   0   
-$EndComp
-$Comp
-L CRYSTAL X201
-U 1 1 515BA76A
-P 3750 3150
-F 0 "X201" H 3750 3300 60  0000 C CNN
-F 1 "12MHz KX-7 20pF" H 3800 3000 60  0000 C CNN
-F 2 "" H 3750 3150 60  0001 C CNN
-F 3 "" H 3750 3150 60  0001 C CNN
-	1    3750 3150
-	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR011
@@ -1303,12 +1282,12 @@ $Comp
 L INDUCTOR L201
 U 1 1 515B996F
 P 6700 1100
-F 0 "L201" V 6650 1100 40  0000 C CNN
-F 1 "MH2029-300Y" V 6800 1100 40  0000 C CNN
+F 0 "L201" H 6700 1200 40  0000 C CNN
+F 1 "MH2029-300Y" H 6750 1000 40  0000 C CNN
 F 2 "" H 6700 1100 60  0001 C CNN
 F 3 "" H 6700 1100 60  0001 C CNN
 	1    6700 1100
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 Text Notes 7200 2700 1    60   ~ 0
 internal pullup
@@ -1347,4 +1326,25 @@ F 3 "" H 6650 2750 60  0001 C CNN
 	1    6650 2750
 	1    0    0    -1  
 $EndComp
+$Comp
+L CRYSTAL_SMD X201
+U 1 1 516FA5C5
+P 3800 3200
+F 0 "X201" V 3850 3050 30  0000 C CNN
+F 1 "KX-7 12MHz  20pF" H 3600 3300 30  0000 L CNN
+F 2 "~" H 3800 3200 60  0000 C CNN
+F 3 "~" H 3800 3200 60  0000 C CNN
+	1    3800 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2700 3200 3700 3200
+Wire Wire Line
+	3800 3000 3800 2700
+Connection ~ 3800 2700
+Wire Wire Line
+	3800 3400 3800 3750
+Connection ~ 3800 3750
+Wire Wire Line
+	2700 3200 2700 3300
 $EndSCHEMATC
