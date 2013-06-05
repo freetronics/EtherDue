@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 03 May 2013 15:34:29 EST
+EESchema Schematic File Version 2  date Tue 04 Jun 2013 15:53:49 EST
 LIBS:freetronics_kicad_sch_lib
 LIBS:power
 LIBS:device
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 6
 Title ""
-Date "3 may 2013"
+Date "4 jun 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -199,7 +199,7 @@ Connection ~ 7700 1800
 Wire Wire Line
 	1650 3500 2350 3500
 Wire Wire Line
-	1000 5450 1400 5450
+	1000 5450 1500 5450
 Wire Wire Line
 	1950 5950 2200 5950
 Wire Wire Line
@@ -231,7 +231,7 @@ Connection ~ 5750 3900
 Wire Wire Line
 	5750 3800 5750 4000
 Wire Wire Line
-	5150 5100 5150 5200
+	5150 5100 5150 5650
 Wire Wire Line
 	4450 5100 5150 5100
 Connection ~ 5150 5100
@@ -314,7 +314,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 3800 2200 5950
 Wire Wire Line
-	2000 5450 2050 5450
+	1900 5450 2050 5450
 Wire Wire Line
 	2050 5450 2050 3650
 Wire Wire Line
@@ -997,17 +997,6 @@ $EndComp
 Text GLabel 1000 5450 0    60   Input ~ 0
 PWM2
 $Comp
-L JUMPER JP602
-U 1 1 51661DAE
-P 1700 5450
-F 0 "JP602" H 1700 5600 60  0000 C CNN
-F 1 "D2_INT" H 1700 5370 40  0000 C CNN
-F 2 "" H 1700 5450 60  0001 C CNN
-F 3 "" H 1700 5450 60  0001 C CNN
-	1    1700 5450
-	-1   0    0    1   
-$EndComp
-$Comp
 L GND #PWR097
 U 1 1 51661CDB
 P 1350 2950
@@ -1221,10 +1210,10 @@ F 3 "" H 1550 4700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L W5100 U601
+L W5100 IC601
 U 1 1 51661783
 P 3950 3550
-F 0 "U601" H 2450 1950 70  0000 C BNN
+F 0 "IC601" H 2450 1950 70  0000 C BNN
 F 1 "W5100" H 2500 2050 70  0000 C BNN
 F 2 "" H 3950 3550 60  0001 C CNN
 F 3 "" H 3950 3550 60  0001 C CNN
@@ -1234,21 +1223,19 @@ $EndComp
 Connection ~ 4000 1900
 Wire Wire Line
 	8200 7000 8000 7000
-$Comp
-L SJ U602
-U 1 1 516662EA
-P 5150 5400
-F 0 "U602" H 5050 5250 70  0000 L BNN
-F 1 "SJ" H 5050 5500 70  0000 L BNN
-F 2 "" H 5150 5400 60  0000 C CNN
-F 3 "" H 5150 5400 60  0000 C CNN
-	1    5150 5400
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5150 5650 5150 5600
-Text Notes 5350 5300 0    39   ~ 0
-This jumper is just to\nkeep Kicad's default\nERC rules happy\n(disallows direct\nBidi <->Power\nconnections)
 Text Notes 8450 6700 0    40   ~ 0
 Reset IC - 140ms min, 280ms max\n< 4.38 Vrst, push-pull output
+$Comp
+L SJ SJ601
+U 1 1 51AD89B9
+P 1700 5450
+F 0 "SJ601" H 1600 5300 70  0000 L BNN
+F 1 "SJ" H 1600 5550 70  0001 L BNN
+F 2 "~" H 1700 5450 60  0000 C CNN
+F 3 "~" H 1700 5450 60  0000 C CNN
+	1    1700 5450
+	1    0    0    -1  
+$EndComp
+Text Label 1250 5400 0    60   ~ 0
+(Open by default)
 $EndSCHEMATC

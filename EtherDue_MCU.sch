@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 03 May 2013 15:34:29 EST
+EESchema Schematic File Version 2  date Tue 04 Jun 2013 15:53:49 EST
 LIBS:freetronics_kicad_sch_lib
 LIBS:power
 LIBS:device
@@ -37,7 +37,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 6
 Title ""
-Date "3 may 2013"
+Date "4 jun 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -514,10 +514,10 @@ Ethernet (not used)
 Text Notes 9250 9500 0    60   ~ 0
 JTAG
 $Comp
-L ATSAM3X8E U201
+L ATSAM3X8E IC201
 U 1 1 515B964D
 P 7900 5650
-F 0 "U201" H 5900 3050 50  0000 C CNN
+F 0 "IC201" H 5900 3050 50  0000 C CNN
 F 1 "ATSAM3X8E" H 6050 2950 50  0000 C CNN
 F 2 "MODULE" H 6500 3550 50  0001 C CNN
 F 3 "DOCUMENTATION" H 6650 3650 50  0001 C CNN
