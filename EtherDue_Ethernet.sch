@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 04 Jun 2013 15:53:49 EST
+EESchema Schematic File Version 2  date Thu 06 Jun 2013 09:35:07 EST
 LIBS:freetronics_kicad_sch_lib
 LIBS:power
 LIBS:device
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 6
 Title ""
-Date "4 jun 2013"
+Date "5 jun 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1045,7 +1045,7 @@ L CRYSTAL X601
 U 1 1 51661C93
 P 1000 1950
 F 0 "X601" H 1000 2100 60  0000 C CNN
-F 1 "KX-7 25MHz 20pF" H 1000 1800 60  0000 C CNN
+F 1 "TXC 7A 25MHz 18pF" H 1000 1800 30  0000 C CNN
 F 2 "" H 1000 1950 60  0001 C CNN
 F 3 "" H 1000 1950 60  0001 C CNN
 	1    1000 1950
@@ -1230,12 +1230,10 @@ L SJ SJ601
 U 1 1 51AD89B9
 P 1700 5450
 F 0 "SJ601" H 1600 5300 70  0000 L BNN
-F 1 "SJ" H 1600 5550 70  0001 L BNN
+F 1 "OPEN" H 1600 5500 30  0000 L BNN
 F 2 "~" H 1700 5450 60  0000 C CNN
 F 3 "~" H 1700 5450 60  0000 C CNN
 	1    1700 5450
 	1    0    0    -1  
 $EndComp
-Text Label 1250 5400 0    60   ~ 0
-(Open by default)
 $EndSCHEMATC

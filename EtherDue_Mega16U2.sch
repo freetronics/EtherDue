@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 04 Jun 2013 15:53:49 EST
+EESchema Schematic File Version 2  date Thu 06 Jun 2013 09:35:07 EST
 LIBS:freetronics_kicad_sch_lib
 LIBS:power
 LIBS:device
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 6
 Title ""
-Date "4 jun 2013"
+Date "5 jun 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -784,7 +784,7 @@ L CRYSTAL_SMD X301
 U 1 1 516F817E
 P 4900 2950
 F 0 "X301" V 5000 2850 30  0000 C CNN
-F 1 "KX-7 12MHz 20pF" H 4700 3050 30  0000 L CNN
+F 1 "TXC 7A 12MHz 18pF" H 4700 3050 30  0000 L CNN
 F 2 "~" H 4900 2950 60  0000 C CNN
 F 3 "~" H 4900 2950 60  0000 C CNN
 	1    4900 2950
@@ -794,4 +794,8 @@ Wire Wire Line
 	4900 2750 4900 2650
 Wire Wire Line
 	4900 3150 4900 3250
+Text Label 5550 2900 2    60   ~ 0
+XTAL1
+Text Label 5550 2650 2    60   ~ 0
+XTAL2
 $EndSCHEMATC

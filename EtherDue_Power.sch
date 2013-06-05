@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 04 Jun 2013 15:53:49 EST
+EESchema Schematic File Version 2  date Thu 06 Jun 2013 09:35:07 EST
 LIBS:freetronics_kicad_sch_lib
 LIBS:power
 LIBS:device
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 6
 Title ""
-Date "4 jun 2013"
+Date "5 jun 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1313,4 +1313,10 @@ F 3 "" H 2150 1900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 2150 1900
+Text Label 5600 1550 3    60   ~ 0
+BUCK_FB
+Text Label 5750 1250 0    60   ~ 0
+BUCK_OUT
+Text Label 5600 1450 0    60   ~ 0
+BUCK_SW
 $EndSCHEMATC

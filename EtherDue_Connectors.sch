@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 04 Jun 2013 15:53:49 EST
+EESchema Schematic File Version 2  date Thu 06 Jun 2013 09:35:07 EST
 LIBS:freetronics_kicad_sch_lib
 LIBS:power
 LIBS:device
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 6
 Title ""
-Date "4 jun 2013"
+Date "5 jun 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -491,7 +491,7 @@ L M02X05 JP401
 U 1 1 5163A5C8
 P 5850 2050
 F 0 "JP401" H 5750 2150 50  0000 C CNN
-F 1 "M02X05" H 5800 1550 40  0000 C CNN
+F 1 "JTAG" H 5800 1550 40  0000 C CNN
 F 2 "" H 5850 2050 60  0001 C CNN
 F 3 "" H 5850 2050 60  0001 C CNN
 	1    5850 2050
