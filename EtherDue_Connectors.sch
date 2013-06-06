@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 06 Jun 2013 10:26:06 EST
+EESchema Schematic File Version 2  date Thu 06 Jun 2013 15:43:54 EST
 LIBS:freetronics_kicad_sch_lib
 LIBS:power
 LIBS:device
@@ -421,17 +421,6 @@ F 3 "" H 5300 1450 60  0001 C CNN
 $EndComp
 Text HLabel 7700 2600 2    60   Input ~ 0
 /MASTER-RESET
-$Comp
-L R R402
-U 1 1 5163A669
-P 7050 2600
-F 0 "R402" V 7130 2600 50  0000 C CNN
-F 1 "0R" V 7050 2600 50  0000 C CNN
-F 2 "" H 7050 2600 60  0001 C CNN
-F 3 "" H 7050 2600 60  0001 C CNN
-	1    7050 2600
-	0    -1   -1   0   
-$EndComp
 Text GLabel 7700 2450 2    60   Input ~ 0
 JTAG_RESET
 Text GLabel 7700 2350 2    60   Input ~ 0
@@ -741,4 +730,17 @@ F 3 "" H 2600 4750 60  0001 C CNN
 $EndComp
 Wire Wire Line
 	1150 3100 1150 3200
+$Comp
+L SJ SJ401
+U 1 1 51B06F1B
+P 7100 2600
+F 0 "SJ401" H 7000 2450 70  0000 L BNN
+F 1 "CLOSED" H 7000 2650 30  0000 L BNN
+F 2 "~" H 7100 2600 60  0000 C CNN
+F 3 "~" H 7100 2600 60  0000 C CNN
+	1    7100 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 2600 6900 2600
 $EndSCHEMATC

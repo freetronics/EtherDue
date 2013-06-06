@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 06 Jun 2013 10:26:06 EST
+EESchema Schematic File Version 2  date Thu 06 Jun 2013 15:43:54 EST
 LIBS:freetronics_kicad_sch_lib
 LIBS:power
 LIBS:device
@@ -47,8 +47,6 @@ Comment4 ""
 $EndDescr
 Wire Wire Line
 	7150 7050 7150 6950
-Wire Wire Line
-	7150 6950 9450 6950
 Connection ~ 7200 4450
 Wire Wire Line
 	8600 4450 6950 4450
@@ -89,7 +87,6 @@ Wire Wire Line
 	7200 6550 7200 6500
 Connection ~ 7800 6550
 Connection ~ 8750 6550
-Connection ~ 9450 6550
 Connection ~ 7500 6950
 Connection ~ 8400 6950
 Connection ~ 9100 6950
@@ -530,17 +527,6 @@ F 1 "100nF" H 9150 6650 50  0000 L CNN
 F 2 "" H 9100 6750 60  0001 C CNN
 F 3 "" H 9100 6750 60  0001 C CNN
 	1    9100 6750
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C525
-U 1 1 515CFFBF
-P 9450 6750
-F 0 "C525" H 9500 6850 50  0000 L CNN
-F 1 "100nF" H 9500 6650 50  0000 L CNN
-F 2 "" H 9450 6750 60  0001 C CNN
-F 3 "" H 9450 6750 60  0001 C CNN
-	1    9450 6750
 	1    0    0    -1  
 $EndComp
 Text Notes 7450 7100 0    40   ~ 0
@@ -1319,4 +1305,6 @@ Text Label 5750 1250 0    60   ~ 0
 BUCK_OUT
 Text Label 5600 1450 0    60   ~ 0
 BUCK_SW
+Wire Wire Line
+	7150 6950 9100 6950
 $EndSCHEMATC
