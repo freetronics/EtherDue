@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 06 Jun 2013 10:22:11 EST
+EESchema Schematic File Version 2  date Thu 06 Jun 2013 10:26:06 EST
 LIBS:freetronics_kicad_sch_lib
 LIBS:power
 LIBS:device
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 6
 Title ""
-Date "5 jun 2013"
+Date "6 jun 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -121,26 +121,6 @@ Wire Wire Line
 Connection ~ 4150 2950
 Wire Wire Line
 	4150 2750 4150 3150
-Wire Notes Line
-	8000 2000 8000 900 
-Wire Notes Line
-	8000 2000 9050 2000
-Wire Notes Line
-	9050 2000 9050 900 
-Wire Notes Line
-	9050 900  8000 900 
-Wire Wire Line
-	8650 1200 8650 950 
-Wire Wire Line
-	8650 950  8400 950 
-Wire Wire Line
-	8400 950  8400 2300
-Wire Wire Line
-	8400 2300 8100 2300
-Wire Wire Line
-	8100 2500 8650 2500
-Wire Wire Line
-	8650 2500 8650 1700
 Connection ~ 5100 2400
 Wire Wire Line
 	5550 2400 3700 2400
@@ -177,18 +157,6 @@ Wire Wire Line
 	8100 2700 8450 2700
 Wire Wire Line
 	8100 2800 8450 2800
-Wire Wire Line
-	8100 2400 8550 2400
-Wire Wire Line
-	8550 2400 8550 1700
-Wire Wire Line
-	8100 2200 8300 2200
-Wire Wire Line
-	8300 2200 8300 1050
-Wire Wire Line
-	8300 1050 8550 1050
-Wire Wire Line
-	8550 1050 8550 1200
 Wire Wire Line
 	5150 3250 5150 2900
 Wire Wire Line
@@ -679,25 +647,6 @@ F 3 "" H 4350 2750 60  0001 C CNN
 	1    4350 2750
 	0    -1   -1   0   
 $EndComp
-Text Label 8400 1950 1    60   ~ 0
-8PB6
-Text Label 8550 1950 1    60   ~ 0
-8PB5
-Text Label 8650 1950 1    60   ~ 0
-8PB4
-Text Label 8300 1950 1    60   ~ 0
-8PB7
-$Comp
-L M02X02 JP301
-U 1 1 515BCEC1
-P 8650 1400
-F 0 "JP301" H 8550 1500 50  0000 C CNN
-F 1 "M02X02" H 8600 1200 40  0000 C CNN
-F 2 "" H 8650 1400 60  0001 C CNN
-F 3 "" H 8650 1400 60  0001 C CNN
-	1    8650 1400
-	0    1    -1   0   
-$EndComp
 NoConn ~ 8100 2900
 Text Label 8100 2800 0    60   ~ 0
 SCK
@@ -798,4 +747,8 @@ Text Label 5550 2900 2    60   ~ 0
 XTAL1
 Text Label 5550 2650 2    60   ~ 0
 XTAL2
+NoConn ~ 8100 2200
+NoConn ~ 8100 2300
+NoConn ~ 8100 2400
+NoConn ~ 8100 2500
 $EndSCHEMATC

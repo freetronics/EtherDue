@@ -547,13 +547,6 @@ IdModule  = pin_array_3x2;
 EndCmp
 
 BeginCmp
-TimeStamp = /515BC885/515BCEC1;
-Reference = JP301;
-ValeurCmp = M02X02;
-IdModule  = PIN_ARRAY_2X2;
-EndCmp
-
-BeginCmp
 TimeStamp = /515D07DB/5163A5C8;
 Reference = JP401;
 ValeurCmp = M02X05;

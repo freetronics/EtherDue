@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 06 Jun 2013 10:22:11 EST
+EESchema Schematic File Version 2  date Thu 06 Jun 2013 10:26:06 EST
 LIBS:freetronics_kicad_sch_lib
 LIBS:power
 LIBS:device
@@ -37,7 +37,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 6
 Title ""
-Date "5 jun 2013"
+Date "6 jun 2013"
 Rev ""
 Comp ""
 Comment1 ""
