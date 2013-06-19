@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 06 Jun 2013 17:31:40 EST
+EESchema Schematic File Version 2  date Wed 19 Jun 2013 10:44:48 EST
 LIBS:freetronics_kicad_sch_lib
 LIBS:power
 LIBS:device
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 6
 Title ""
-Date "6 jun 2013"
+Date "19 jun 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -751,4 +751,10 @@ NoConn ~ 8100 2200
 NoConn ~ 8100 2300
 NoConn ~ 8100 2400
 NoConn ~ 8100 2500
+Text Label 2600 4250 2    60   ~ 0
+RD-_CONN
+Text Label 2600 4450 2    60   ~ 0
+RD+_CONN
+Text Label 1450 4150 0    60   ~ 0
+USBVCCU2_CONN
 $EndSCHEMATC

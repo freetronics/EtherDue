@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Thu 06 Jun 2013 16:09:47 EST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Wed 19 Jun 2013 10:45:04 EST
 
 BeginCmp
 TimeStamp = /515B960F/515BA78B;
@@ -102,28 +102,28 @@ BeginCmp
 TimeStamp = /515D07DB/5163A9FA;
 Reference = C402;
 ValeurCmp = 10uF;
-IdModule  = SM0402;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /515D07DB/5163A9FC;
 Reference = C403;
 ValeurCmp = 10uF;
-IdModule  = SM0402;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /515CC1F3/515CCB41;
 Reference = C501;
 ValeurCmp = 47uF;
-IdModule  = SM0402;
+IdModule  = c_elec_5x5.3;
 EndCmp
 
 BeginCmp
 TimeStamp = /515CC1F3/515CCC11;
 Reference = C502;
 ValeurCmp = 10uF;
-IdModule  = SM0402;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
@@ -151,14 +151,14 @@ BeginCmp
 TimeStamp = /515CC1F3/515CFE74;
 Reference = C506;
 ValeurCmp = 10uF;
-IdModule  = SM0402;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /515CC1F3/515CFFC6;
 Reference = C507;
 ValeurCmp = 10uF;
-IdModule  = SM0402;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
@@ -178,8 +178,8 @@ EndCmp
 BeginCmp
 TimeStamp = /515CC1F3/515CD394;
 Reference = C510;
-ValeurCmp = 47uF;
-IdModule  = SM0402;
+ValeurCmp = 47uF 16V;
+IdModule  = c_elec_5x5.3;
 EndCmp
 
 BeginCmp
@@ -228,21 +228,21 @@ BeginCmp
 TimeStamp = /515CC1F3/515CFDC7;
 Reference = C517;
 ValeurCmp = 10uF;
-IdModule  = SM0402;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /515CC1F3/515CFE4D;
 Reference = C518;
 ValeurCmp = 10uF;
-IdModule  = SM0402;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /515CC1F3/515D021F;
 Reference = C519;
 ValeurCmp = 10uF;
-IdModule  = SM0402;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
@@ -298,7 +298,7 @@ BeginCmp
 TimeStamp = /515CC1F3/515CD7E2;
 Reference = C528;
 ValeurCmp = 10uF;
-IdModule  = SM1206POL;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
@@ -319,7 +319,7 @@ BeginCmp
 TimeStamp = /51651351/5166306E;
 Reference = C603;
 ValeurCmp = 100nF;
-IdModule  = SM0603_Capa;
+IdModule  = SM0402;
 EndCmp
 
 BeginCmp
@@ -613,14 +613,14 @@ BeginCmp
 TimeStamp = /515BC885/515BD282;
 Reference = P301;
 ValeurCmp = USB_5PIN_SHELL;
-IdModule  = USB-MICROB;
+IdModule  = USB-MICRO_TH_4PEGS;
 EndCmp
 
 BeginCmp
 TimeStamp = /515D07DB/5163A763;
 Reference = P401;
 ValeurCmp = USB_5PIN_SHELL;
-IdModule  = USB-MICROB;
+IdModule  = USB-MICRO_TH_4PEGS;
 EndCmp
 
 BeginCmp
@@ -841,10 +841,17 @@ IdModule  = RES_CAY16;
 EndCmp
 
 BeginCmp
-TimeStamp = /51651351/51663326;
+TimeStamp = /51651351/51C10B1D;
 Reference = R606;
 ValeurCmp = 1K;
-IdModule  = RES_CAY16;
+IdModule  = SM0402_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /51651351/51C10B2F;
+Reference = R607;
+ValeurCmp = 1K;
+IdModule  = SM0402_r;
 EndCmp
 
 BeginCmp
@@ -1012,7 +1019,7 @@ BeginCmp
 TimeStamp = /51651351/51661C93;
 Reference = X601;
 ValeurCmp = TXC 7A 25MHz 18pF;
-IdModule  = X601;
+IdModule  = TXC_7A;
 EndCmp
 
 BeginCmp

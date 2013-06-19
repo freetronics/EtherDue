@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 06 Jun 2013 17:31:40 EST
+EESchema Schematic File Version 2  date Wed 19 Jun 2013 10:44:48 EST
 LIBS:freetronics_kicad_sch_lib
 LIBS:power
 LIBS:device
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 6
 Title ""
-Date "6 jun 2013"
+Date "19 jun 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1085,7 +1085,7 @@ L C C510
 U 1 1 515CD394
 P 8000 1850
 F 0 "C510" H 8050 1950 50  0000 L CNN
-F 1 "47uF" H 8050 1750 50  0000 L CNN
+F 1 "47uF 16V" H 8050 1750 50  0000 L CNN
 F 2 "" H 8000 1850 60  0001 C CNN
 F 3 "" H 8000 1850 60  0001 C CNN
 	1    8000 1850
@@ -1287,6 +1287,16 @@ F 3 "" H 6250 3400 60  0000 C CNN
 	1    6250 3400
 	1    0    0    -1  
 $EndComp
+Text Label 5600 1550 3    60   ~ 0
+BUCK_FB
+Text Label 5750 1250 0    60   ~ 0
+BUCK_OUT
+Text Label 5600 1450 0    60   ~ 0
+BUCK_SW
+Wire Wire Line
+	7150 6950 9100 6950
+Text Label 1850 1400 2    60   ~ 0
+POWER_JACK
 $Comp
 L PWR_FLAG #FLG078
 U 1 1 51666680
@@ -1299,12 +1309,4 @@ F 3 "" H 2150 1900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 2150 1900
-Text Label 5600 1550 3    60   ~ 0
-BUCK_FB
-Text Label 5750 1250 0    60   ~ 0
-BUCK_OUT
-Text Label 5600 1450 0    60   ~ 0
-BUCK_SW
-Wire Wire Line
-	7150 6950 9100 6950
 $EndSCHEMATC

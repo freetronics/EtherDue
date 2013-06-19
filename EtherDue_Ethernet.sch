@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 06 Jun 2013 17:31:40 EST
+EESchema Schematic File Version 2  date Wed 19 Jun 2013 10:44:48 EST
 LIBS:freetronics_kicad_sch_lib
 LIBS:power
 LIBS:device
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 6
 Title ""
-Date "6 jun 2013"
+Date "19 jun 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -698,28 +698,6 @@ FDXLED
 Text Label 7950 4300 2    60   ~ 0
 LINKLED
 $Comp
-L RES_PACK4_IND R606
-U 1 1 51663326
-P 8200 4300
-F 0 "R606" H 8000 4200 50  0000 C CNN
-F 1 "1K" H 8300 4200 50  0000 C CNN
-F 2 "" H 8200 4300 60  0001 C CNN
-F 3 "" H 8200 4300 60  0001 C CNN
-	1    8200 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L RES_PACK4_IND R606
-U 2 1 51663316
-P 8200 4600
-F 0 "R606" H 8000 4500 50  0000 C CNN
-F 1 "1K" H 8300 4500 50  0000 C CNN
-F 2 "" H 8200 4600 60  0001 C CNN
-F 3 "" H 8200 4600 60  0001 C CNN
-	2    8200 4600
-	1    0    0    -1  
-$EndComp
-$Comp
 L +3.3V #PWR091
 U 1 1 51663302
 P 7600 4500
@@ -1235,5 +1213,27 @@ F 2 "~" H 1700 5450 60  0000 C CNN
 F 3 "~" H 1700 5450 60  0000 C CNN
 	1    1700 5450
 	1    0    0    -1  
+$EndComp
+$Comp
+L R R606
+U 1 1 51C10B1D
+P 8200 4300
+F 0 "R606" V 8280 4300 40  0000 C CNN
+F 1 "1K" V 8207 4301 40  0000 C CNN
+F 2 "~" V 8130 4300 30  0000 C CNN
+F 3 "~" H 8200 4300 30  0000 C CNN
+	1    8200 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R607
+U 1 1 51C10B2F
+P 8200 4600
+F 0 "R607" V 8280 4600 40  0000 C CNN
+F 1 "1K" V 8207 4601 40  0000 C CNN
+F 2 "~" V 8130 4600 30  0000 C CNN
+F 3 "~" H 8200 4600 30  0000 C CNN
+	1    8200 4600
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
