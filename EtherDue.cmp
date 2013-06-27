@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Thu 27 Jun 2013 12:17:37 EST
+Cmp-Mod V01 Created by PcbNew date = Fri 28 Jun 2013 08:19:24 EST
 
 BeginCmp
 TimeStamp = /515B960F/515BA78B;
@@ -557,7 +557,7 @@ BeginCmp
 TimeStamp = /51651351/5166347E;
 Reference = JP601;
 ValeurCmp = M04;
-IdModule  = PIN_ARRAY_4x1;
+IdModule  = FT-POE-MODULE-NOOUTLINE;
 EndCmp
 
 BeginCmp
