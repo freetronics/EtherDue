@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Wed 19 Jun 2013 10:45:04 EST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Thu 27 Jun 2013 12:17:37 EST
 
 BeginCmp
 TimeStamp = /515B960F/515BA78B;
@@ -374,6 +374,13 @@ EndCmp
 BeginCmp
 TimeStamp = /51651351/516632AB;
 Reference = C611;
+ValeurCmp = 100nF;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /51651351/51CBA5D2;
+Reference = C612;
 ValeurCmp = 100nF;
 IdModule  = SM0402;
 EndCmp
@@ -960,17 +967,24 @@ IdModule  = SOT223;
 EndCmp
 
 BeginCmp
-TimeStamp = /51651351/51663B87;
-Reference = U603;
-ValeurCmp = APX811-44UG-7;
-IdModule  = SOT143-R;
+TimeStamp = /51651351/51CBA5BE;
+Reference = U601;
+ValeurCmp = MICROSD;
+IdModule  = MICRO-SD-SOCKET-PP;
 EndCmp
 
 BeginCmp
 TimeStamp = /51651351/51663227;
-Reference = U604;
+Reference = U602;
 ValeurCmp = HY931147C;
 IdModule  = HY931147C;
+EndCmp
+
+BeginCmp
+TimeStamp = /51651351/51663B87;
+Reference = U603;
+ValeurCmp = APX811-44UG-7;
+IdModule  = SOT143-R;
 EndCmp
 
 BeginCmp
