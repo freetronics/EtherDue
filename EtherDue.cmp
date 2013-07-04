@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Fri 28 Jun 2013 08:19:24 EST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Thu 04 Jul 2013 10:36:22 EST
 
 BeginCmp
 TimeStamp = /515B960F/515BA78B;
@@ -379,8 +379,8 @@ IdModule  = SM0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /51651351/51CBA5D2;
-Reference = C612;
+TimeStamp = /51D4D3EB/51D4DBE9;
+Reference = C701;
 ValeurCmp = 100nF;
 IdModule  = SM0402;
 EndCmp
@@ -904,6 +904,20 @@ IdModule  = SJ_OPEN;
 EndCmp
 
 BeginCmp
+TimeStamp = /51D4D3EB/51D50E59;
+Reference = SJ701;
+ValeurCmp = SJ;
+IdModule  = SJ_SHORTED;
+EndCmp
+
+BeginCmp
+TimeStamp = /51D4D3EB/51D50E66;
+Reference = SJ702;
+ValeurCmp = SJ;
+IdModule  = SJ_SHORTED;
+EndCmp
+
+BeginCmp
 TimeStamp = /515B960F/515CF006;
 Reference = SW201;
 ValeurCmp = ERASE;
@@ -942,7 +956,7 @@ BeginCmp
 TimeStamp = /515CC1F3/515CCEB6;
 Reference = U502;
 ValeurCmp = LM2734Y;
-IdModule  = SOT23_6;
+IdModule  = SOT23-6;
 EndCmp
 
 BeginCmp
@@ -967,13 +981,6 @@ IdModule  = SOT223;
 EndCmp
 
 BeginCmp
-TimeStamp = /51651351/51CBA5BE;
-Reference = U601;
-ValeurCmp = MICROSD;
-IdModule  = MICRO-SD-SOCKET-PP;
-EndCmp
-
-BeginCmp
 TimeStamp = /51651351/51663227;
 Reference = U602;
 ValeurCmp = HY931147C;
@@ -985,6 +992,20 @@ TimeStamp = /51651351/51663B87;
 Reference = U603;
 ValeurCmp = APX811-44UG-7;
 IdModule  = SOT143-R;
+EndCmp
+
+BeginCmp
+TimeStamp = /51D4D3EB/51D4DBE3;
+Reference = U701;
+ValeurCmp = MICROSD;
+IdModule  = MICRO-SD-SOCKET-PP;
+EndCmp
+
+BeginCmp
+TimeStamp = /51D4D3EB/51D4E2C7;
+Reference = U702;
+ValeurCmp = 24AA025E48;
+IdModule  = SOT23-6;
 EndCmp
 
 BeginCmp

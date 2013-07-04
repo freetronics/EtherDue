@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 28 Jun 2013 16:34:50 EST
+EESchema Schematic File Version 2  date Thu 04 Jul 2013 10:55:52 EST
 LIBS:freetronics_kicad_sch_lib
 LIBS:power
 LIBS:device
@@ -35,9 +35,9 @@ EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title ""
-Date "27 jun 2013"
+Date "4 jul 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -216,5 +216,11 @@ U 51651351
 F0 "Ethernet" 60
 F1 "EtherDue_Ethernet.sch" 60
 F2 "/MASTER-RESET" I L 7450 1300 60 
+$EndSheet
+$Sheet
+S 7450 3600 1550 1950
+U 51D4D3EB
+F0 "Peripherals" 50
+F1 "EtherDue_peripherals.sch" 50
 $EndSheet
 $EndSCHEMATC

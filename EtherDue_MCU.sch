@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 28 Jun 2013 16:34:50 EST
+EESchema Schematic File Version 2  date Thu 04 Jul 2013 10:55:52 EST
 LIBS:freetronics_kicad_sch_lib
 LIBS:power
 LIBS:device
@@ -35,9 +35,9 @@ EELAYER 24 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 6
+Sheet 2 7
 Title ""
-Date "27 jun 2013"
+Date "4 jul 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -497,8 +497,8 @@ Wire Wire Line
 	9400 8450 9400 8900
 Wire Wire Line
 	7600 10600 7600 8450
-Text Notes 6500 10950 0    60   ~ 0
-i2c Level Shifting
+Text Notes 6650 10900 0    60   ~ 0
+i2c 3.3v pullups
 NoConn ~ 7300 8450
 NoConn ~ 7200 8450
 NoConn ~ 7100 8450

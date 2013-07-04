@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 28 Jun 2013 16:34:50 EST
+EESchema Schematic File Version 2  date Thu 04 Jul 2013 10:55:52 EST
 LIBS:freetronics_kicad_sch_lib
 LIBS:power
 LIBS:device
@@ -35,9 +35,9 @@ EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 6 7
 Title ""
-Date "27 jun 2013"
+Date "4 jul 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -75,22 +75,20 @@ $EndComp
 $Comp
 L GND #PWR081
 U 1 1 51663F24
-P 8200 7050
-F 0 "#PWR081" H 8200 7050 30  0001 C CNN
-F 1 "GND" H 8200 6980 30  0001 C CNN
-F 2 "" H 8200 7050 60  0001 C CNN
-F 3 "" H 8200 7050 60  0001 C CNN
-	1    8200 7050
+P 8750 7050
+F 0 "#PWR081" H 8750 7050 30  0001 C CNN
+F 1 "GND" H 8750 6980 30  0001 C CNN
+F 2 "" H 8750 7050 60  0001 C CNN
+F 3 "" H 8750 7050 60  0001 C CNN
+	1    8750 7050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8200 7050 8200 7000
+	8750 7050 8750 7000
 Wire Wire Line
 	1150 3200 2350 3200
 Wire Wire Line
 	1150 3400 2350 3400
-Wire Wire Line
-	8600 6400 9000 6400
 Wire Notes Line
 	6600 5350 11200 5350
 Wire Notes Line
@@ -432,9 +430,9 @@ Wire Wire Line
 	5800 6600 6350 6600
 Connection ~ 6100 6600
 Wire Wire Line
-	7850 5800 8000 5800
+	8400 5800 8550 5800
 Wire Wire Line
-	7350 6400 7250 6400
+	7900 6400 7800 6400
 Wire Wire Line
 	1150 3300 2350 3300
 Wire Wire Line
@@ -447,33 +445,31 @@ Text GLabel 1150 3200 0    60   Input ~ 0
 MOSI
 Text GLabel 1150 3100 0    60   Input ~ 0
 MISO
-Text HLabel 7250 6400 0    60   Input ~ 0
+Text HLabel 7800 6400 0    60   Input ~ 0
 /MASTER-RESET
-Text Label 9000 6400 2    60   ~ 0
-WIZRST
 $Comp
 L +3.3V #PWR082
 U 1 1 51663BD9
-P 7850 5800
-F 0 "#PWR082" H 7850 5760 30  0001 C CNN
-F 1 "+3.3V" H 7850 5910 30  0000 C CNN
-F 2 "" H 7850 5800 60  0001 C CNN
-F 3 "" H 7850 5800 60  0001 C CNN
-	1    7850 5800
+P 8400 5800
+F 0 "#PWR082" H 8400 5760 30  0001 C CNN
+F 1 "+3.3V" H 8400 5910 30  0000 C CNN
+F 2 "" H 8400 5800 60  0001 C CNN
+F 3 "" H 8400 5800 60  0001 C CNN
+	1    8400 5800
 	1    0    0    -1  
 $EndComp
 $Comp
 L APX811 U603
 U 1 1 51663B87
-P 8000 6400
-F 0 "U603" H 7000 5800 70  0000 L BNN
-F 1 "APX811-44UG-7" H 7000 5900 70  0000 L BNN
-F 2 "" H 8000 6400 60  0001 C CNN
-F 3 "" H 8000 6400 60  0001 C CNN
-	1    8000 6400
+P 8550 6400
+F 0 "U603" H 7550 5800 70  0000 L BNN
+F 1 "APX811-44UG-7" H 7550 5900 70  0000 L BNN
+F 2 "" H 8550 6400 60  0001 C CNN
+F 3 "" H 8550 6400 60  0001 C CNN
+	1    8550 6400
 	1    0    0    -1  
 $EndComp
-Text Notes 6800 5600 0    100  ~ 0
+Text Notes 7400 5550 0    100  ~ 0
 W5100 Reset on Poweron
 $Comp
 L +3.3V #PWR083
@@ -1193,8 +1189,8 @@ F 3 "" H 3950 3550 60  0001 C CNN
 $EndComp
 Connection ~ 4000 1900
 Wire Wire Line
-	8200 7000 8000 7000
-Text Notes 8450 6700 0    40   ~ 0
+	8750 7000 8550 7000
+Text Notes 9700 6400 0    40   ~ 0
 Reset IC - 140ms min, 280ms max\n< 4.38 Vrst, push-pull output
 $Comp
 L SJ SJ601
@@ -1229,89 +1225,6 @@ F 3 "~" H 8200 4600 30  0000 C CNN
 	1    8200 4600
 	0    -1   -1   0   
 $EndComp
-$Comp
-L MICROSD U601
-U 1 1 51CBA5BE
-P 10600 2000
-F 0 "U601" H 10700 2900 60  0000 C CNN
-F 1 "MICROSD" H 10550 1350 60  0000 C CNN
-F 2 "~" H 10600 2000 60  0000 C CNN
-F 3 "~" H 10600 2000 60  0000 C CNN
-	1    10600 2000
-	-1   0    0    -1  
-$EndComp
-$Comp
-L C C612
-U 1 1 51CBA5D2
-P 8700 1600
-F 0 "C612" H 8700 1700 40  0000 L CNN
-F 1 "100nF" H 8706 1515 40  0000 L CNN
-F 2 "~" H 8738 1450 30  0000 C CNN
-F 3 "~" H 8700 1600 60  0000 C CNN
-	1    8700 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR0108
-U 1 1 51CBA5E1
-P 8700 1100
-F 0 "#PWR0108" H 8700 1060 30  0001 C CNN
-F 1 "+3.3V" H 8700 1210 30  0000 C CNN
-F 2 "" H 8700 1100 60  0000 C CNN
-F 3 "" H 8700 1100 60  0000 C CNN
-	1    8700 1100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8700 1400 8700 1100
-Wire Wire Line
-	8950 1500 8950 1250
-Wire Wire Line
-	8950 1250 8700 1250
-Connection ~ 8700 1250
-Wire Wire Line
-	8700 1800 8700 2500
-Wire Wire Line
-	8700 2400 10150 2400
-Wire Wire Line
-	10150 2200 10150 2500
-Connection ~ 10150 2400
-Connection ~ 8700 2400
-$Comp
-L GND #PWR0109
-U 1 1 51CBA9E0
-P 8700 2500
-F 0 "#PWR0109" H 8700 2500 30  0001 C CNN
-F 1 "GND" H 8700 2430 30  0001 C CNN
-F 2 "" H 8700 2500 60  0000 C CNN
-F 3 "" H 8700 2500 60  0000 C CNN
-	1    8700 2500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10150 1300 9750 1300
-Wire Wire Line
-	10150 1400 9750 1400
-Wire Wire Line
-	10150 1600 9750 1600
-Wire Wire Line
-	10150 1800 9750 1800
-Wire Wire Line
-	10150 1500 8950 1500
-Text GLabel 9750 1300 0    60   Input ~ 0
-SS1/PWM4
-Text GLabel 9750 1600 0    60   Input ~ 0
-SCK
-Text GLabel 9750 1400 0    60   Input ~ 0
-MOSI
-Text GLabel 9750 1800 0    60   Input ~ 0
-MISO
-Wire Wire Line
-	10150 1700 9000 1700
-Wire Wire Line
-	9000 1700 9000 2400
-Connection ~ 9000 2400
-Connection ~ 10150 2300
 Wire Wire Line
 	8250 3600 8250 3200
 Connection ~ 8250 3600
@@ -1319,10 +1232,8 @@ Wire Wire Line
 	7250 3600 7250 3750
 Wire Wire Line
 	8250 3200 8500 3200
-Wire Notes Line
-	8250 500  8250 2750
-Wire Notes Line
-	8250 2750 11200 2750
-Text Notes 9350 800  0    60   ~ 0
-MicroSD Card Slot
+Text Label 9550 6400 2    60   ~ 0
+WIZRST
+Wire Wire Line
+	9150 6400 9550 6400
 $EndSCHEMATC
