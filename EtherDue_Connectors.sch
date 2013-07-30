@@ -245,7 +245,7 @@ F 3 "" H 10550 1600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 8800 950  0    100  ~ 0
-Debug Port
+Debug Port (SWD)\n
 Text GLabel 3500 2400 2    60   Input ~ 0
 AREF
 Text HLabel 3500 4000 2    60   Input ~ 0
