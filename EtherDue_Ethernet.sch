@@ -463,7 +463,7 @@ L APX811 U603
 U 1 1 51663B87
 P 8550 6400
 F 0 "U603" H 7550 5800 70  0000 L BNN
-F 1 "APX811-44UG-7" H 7550 5900 70  0000 L BNN
+F 1 "APX811-31UG-7" H 7550 5900 70  0000 L BNN
 F 2 "" H 8550 6400 60  0001 C CNN
 F 3 "" H 8550 6400 60  0001 C CNN
 	1    8550 6400
@@ -1191,7 +1191,7 @@ Connection ~ 4000 1900
 Wire Wire Line
 	8750 7000 8550 7000
 Text Notes 9700 6400 0    40   ~ 0
-Reset IC - 140ms min, 280ms max\n< 4.38 Vrst, push-pull output
+Reset IC - 140ms min, 280ms max\n< 3.08 Vrst, push-pull output
 $Comp
 L SJ SJ601
 U 1 1 51AD89B9
