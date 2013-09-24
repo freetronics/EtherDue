@@ -552,17 +552,17 @@ Text GLabel 3500 4900 2    60   Input ~ 0
 SCL0-3
 Text GLabel 3500 4800 2    60   Input ~ 0
 SDA0-3
-Text GLabel 3500 4700 2    60   Input ~ 0
+Text GLabel 3500 4300 2    60   Input ~ 0
 RXD0
-Text GLabel 3500 4600 2    60   Input ~ 0
+Text GLabel 3500 4200 2    60   Input ~ 0
 TXD0
 Text GLabel 3500 4500 2    60   Input ~ 0
 RXD1
 Text GLabel 3500 4400 2    60   Input ~ 0
 TXD1
-Text GLabel 3500 4300 2    60   Input ~ 0
+Text GLabel 3500 4700 2    60   Input ~ 0
 RXD2
-Text GLabel 3500 4200 2    60   Input ~ 0
+Text GLabel 3500 4600 2    60   Input ~ 0
 TXD2
 Text GLabel 3500 6950 2    60   Input ~ 0
 PIN37
