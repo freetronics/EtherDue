@@ -31,13 +31,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:EtherDue-cache
-EELAYER 24 0
+EELAYER 27 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 7
 Title ""
-Date "4 jul 2013"
+Date "20 nov 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -643,7 +643,7 @@ $EndComp
 Text HLabel 8050 2200 0    60   Input ~ 0
 VDDANA
 Text HLabel 8050 2050 0    60   Input ~ 0
-VDDUTMI
+VDDOUTMI
 Text GLabel 12400 5400 0    60   Input ~ 0
 PWM13
 $Comp

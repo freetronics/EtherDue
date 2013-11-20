@@ -31,13 +31,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:EtherDue-cache
-EELAYER 24 0
+EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 7
 Title ""
-Date "4 jul 2013"
+Date "20 nov 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -342,7 +342,7 @@ F 3 "" H 8600 4250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 10350 4000 2    60   Input ~ 0
-VDDUTMI
+VDDOUTMI
 $Comp
 L GND #PWR056
 U 1 1 515CFE4C
@@ -1117,7 +1117,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 1300 2750 1400
 Connection ~ 2750 1400
-Connection ~ 3750 1400
+Connection ~ 3650 1400
 Wire Wire Line
 	4400 1500 4400 2000
 Wire Wire Line
