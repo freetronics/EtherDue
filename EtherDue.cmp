@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Fri 26 Jul 2013 10:30:29 EST
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Tue 26 Nov 2013 10:16:16 EST
 
 BeginCmp
 TimeStamp = /515B960F/515BA78B;
@@ -52,7 +52,7 @@ EndCmp
 BeginCmp
 TimeStamp = /515B960F/515CF2B0;
 Reference = C208;
-ValeurCmp = 10nF;
+ValeurCmp = 100nF;
 IdModule  = SM0402;
 EndCmp
 
@@ -115,15 +115,15 @@ EndCmp
 BeginCmp
 TimeStamp = /515CC1F3/515CCB41;
 Reference = C501;
-ValeurCmp = 47uF;
+ValeurCmp = 47uF 25V;
 IdModule  = c_elec_5x5.3;
 EndCmp
 
 BeginCmp
 TimeStamp = /515CC1F3/515CCC11;
 Reference = C502;
-ValeurCmp = 10uF;
-IdModule  = SM0603_Capa;
+ValeurCmp = 10uF 25V;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
@@ -159,13 +159,6 @@ TimeStamp = /515CC1F3/515CFFC6;
 Reference = C507;
 ValeurCmp = 10uF;
 IdModule  = SM0603_Capa;
-EndCmp
-
-BeginCmp
-TimeStamp = /515CC1F3/515CFE7D;
-Reference = C508;
-ValeurCmp = 100nF;
-IdModule  = SM0402;
 EndCmp
 
 BeginCmp
@@ -731,7 +724,7 @@ EndCmp
 BeginCmp
 TimeStamp = /515BC885/515BD538;
 Reference = R306;
-ValeurCmp = 10K;
+ValeurCmp = 1K;
 IdModule  = SM0402_r;
 EndCmp
 
@@ -990,7 +983,7 @@ EndCmp
 BeginCmp
 TimeStamp = /51651351/51663B87;
 Reference = U603;
-ValeurCmp = APX811-44UG-7;
+ValeurCmp = APX811-31UG-7;
 IdModule  = SOT143-R;
 EndCmp
 
@@ -1046,7 +1039,7 @@ EndCmp
 BeginCmp
 TimeStamp = /515BC885/516F817E;
 Reference = X301;
-ValeurCmp = TXC 7A 12MHz 18pF;
+ValeurCmp = TXC 7A 16MHz 18pF;
 IdModule  = TXC_7A;
 EndCmp
 

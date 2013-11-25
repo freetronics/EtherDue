@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 7
 Title ""
-Date "20 nov 2013"
+Date "25 nov 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -109,8 +109,6 @@ Wire Wire Line
 	4550 3250 5150 3250
 Wire Wire Line
 	5550 2650 4550 2650
-Wire Wire Line
-	4000 2950 4800 2950
 Wire Wire Line
 	4000 2950 4000 3050
 Connection ~ 4900 2650
@@ -728,17 +726,6 @@ F 3 "" H 6900 3250 60  0001 C CNN
 	1    6900 3250
 	1    0    0    -1  
 $EndComp
-$Comp
-L CRYSTAL_SMD X301
-U 1 1 516F817E
-P 4900 2950
-F 0 "X301" V 5000 2850 30  0000 C CNN
-F 1 "TXC 7A 16MHz 18pF" H 4700 3050 30  0000 L CNN
-F 2 "~" H 4900 2950 60  0000 C CNN
-F 3 "~" H 4900 2950 60  0000 C CNN
-	1    4900 2950
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4900 2750 4900 2650
 Wire Wire Line
@@ -757,4 +744,17 @@ Text Label 2600 4450 2    60   ~ 0
 RD+_CONN
 Text Label 1450 4150 0    60   ~ 0
 USBVCCU2_CONN
+$Comp
+L CRYSTAL X301
+U 1 1 5293E5FC
+P 4900 2950
+F 0 "X301" H 4900 3100 60  0000 C CNN
+F 1 "TXC 7A 16MHz 18pF" H 4900 2800 60  0000 C CNN
+F 2 "~" H 4900 2950 60  0000 C CNN
+F 3 "~" H 4900 2950 60  0000 C CNN
+	1    4900 2950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4150 2950 4000 2950
 $EndSCHEMATC
