@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Tue 26 Nov 2013 10:16:16 EST
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Tue 26 Nov 2013 14:04:18 EST
 
 BeginCmp
 TimeStamp = /515B960F/515BA78B;
@@ -410,7 +410,7 @@ BeginCmp
 TimeStamp = /515BC885/515BCE47;
 Reference = D301;
 ValeurCmp = CD1206-S;
-IdModule  = LED-0603;
+IdModule  = 1206_DIODE;
 EndCmp
 
 BeginCmp
@@ -1037,7 +1037,7 @@ IdModule  = ABS07L;
 EndCmp
 
 BeginCmp
-TimeStamp = /515BC885/516F817E;
+TimeStamp = /515BC885/5293E5FC;
 Reference = X301;
 ValeurCmp = TXC 7A 16MHz 18pF;
 IdModule  = TXC_7A;
