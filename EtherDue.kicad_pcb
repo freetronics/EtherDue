@@ -7417,7 +7417,7 @@
   (gr_text "D4 = uSD nCS\nD10 = LAN nCS\nD20 & D21 (SDA & SCL) = \nMAC Address EEPROM\n(Microchip 24AA02E48)\n(i2c addresses 0x50-0x57)" (at 199.771 38.354) (layer B.SilkS) (tstamp 523A8B23)
     (effects (font (size 1 1) (thickness 0.25)) (justify left mirror))
   )
-  (gr_text "v0.2\nby Angus Gratton" (at 164.75 46.75) (layer B.SilkS) (tstamp 51F9E40C)
+  (gr_text "v0.3\nby Angus Gratton" (at 164.75 46.75) (layer B.SilkS) (tstamp 51F9E40C)
     (effects (font (size 1.2 1.2) (thickness 0.25)) (justify left mirror))
   )
   (gr_text EtherDue (at 165.25 44.25) (layer B.SilkS)
