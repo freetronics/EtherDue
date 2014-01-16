@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 7
 Title ""
-Date "25 nov 2013"
+Date "16 jan 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -737,7 +737,7 @@ L C C510
 U 1 1 515CD394
 P 8000 1850
 F 0 "C510" H 8050 1950 50  0000 L CNN
-F 1 "47uF 16V" H 8050 1750 50  0000 L CNN
+F 1 "100uF 16V" H 8050 1750 50  0000 L CNN
 F 2 "" H 8000 1850 60  0001 C CNN
 F 3 "" H 8000 1850 60  0001 C CNN
 	1    8000 1850

@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/gus/ft/etherdue/etherdue/EtherDue.sch)
-    (date "Tue 26 Nov 2013 10:17:52 EST")
+    (date "Thu 16 Jan 2014 14:13:22 EST")
     (tool "eeschema (2013-jul-07)-stable"))
   (components
     (comp (ref IC201)
@@ -708,7 +708,7 @@
       (sheetpath (names /Power/) (tstamps /515CC1F3/))
       (tstamp 515CD3A3))
     (comp (ref C510)
-      (value "47uF 16V")
+      (value "100uF 16V")
       (libsource (lib device) (part C))
       (sheetpath (names /Power/) (tstamps /515CC1F3/))
       (tstamp 515CD394))
@@ -768,18 +768,6 @@
       (sheetpath (names /Power/) (tstamps /515CC1F3/))
       (tstamp 515CFE74)))
   (libparts
-    (libpart (lib freetronics_kicad_sch_lib) (part 2N7002)
-      (footprints
-        (fp SOT23*))
-      (fields
-        (field (name Reference) Q)
-        (field (name Value) 2N7002)
-        (field (name Footprint) SOT23)
-        (field (name Datasheet) ~))
-      (pins
-        (pin (num 1) (name G) (type input))
-        (pin (num 2) (name S) (type passive))
-        (pin (num 3) (name D) (type passive))))
     (libpart (lib freetronics_kicad_sch_lib) (part 24AA025E48)
       (description "Microchip 24AA025E48")
       (footprints
@@ -796,6 +784,18 @@
         (pin (num 4) (name A1) (type input))
         (pin (num 5) (name A0) (type input))
         (pin (num 6) (name Vcc) (type power_in))))
+    (libpart (lib freetronics_kicad_sch_lib) (part 2N7002)
+      (footprints
+        (fp SOT23*))
+      (fields
+        (field (name Reference) Q)
+        (field (name Value) 2N7002)
+        (field (name Footprint) SOT23)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name G) (type input))
+        (pin (num 2) (name S) (type passive))
+        (pin (num 3) (name D) (type passive))))
     (libpart (lib freetronics_kicad_sch_lib) (part APX811)
       (fields
         (field (name Reference) U)
