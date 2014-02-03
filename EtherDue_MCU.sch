@@ -36,14 +36,14 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 7
-Title ""
+Title "EtherDue"
 Date "16 jan 2014"
 Rev ""
-Comp ""
+Comp "(C) 2014 Freetronics Pty Ltd"
 Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment2 "tapr.org/ohl"
+Comment3 "Licensed under TAPR Open Hardware License"
+Comment4 "freetronics.com/etherdue"
 $EndDescr
 Wire Wire Line
 	7700 8450 7700 10750
