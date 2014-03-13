@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 7
 Title "EtherDue"
-Date "16 jan 2014"
+Date "13 mar 2014"
 Rev ""
 Comp "(C) 2014 Freetronics Pty Ltd"
 Comment1 ""
@@ -1272,4 +1272,6 @@ Wire Wire Line
 	7250 6550 9350 6550
 Wire Wire Line
 	7150 6950 9350 6950
+Text Notes 700  2100 0    60   ~ 0
+7-12V Recommended,\n6-20V Possible.
 $EndSCHEMATC
