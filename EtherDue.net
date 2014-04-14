@@ -57,7 +57,7 @@
       (sheetpath (names /MCU/) (tstamps /515B960F/))
       (tstamp 515CBD09))
     (comp (ref U203)
-      (value LMV358IDGKR)
+      (value LMV358IPWR)
       (libsource (lib linear) (part LM358))
       (sheetpath (names /MCU/) (tstamps /515B960F/))
       (tstamp 515CBD06))

@@ -934,7 +934,7 @@ EndCmp
 BeginCmp
 TimeStamp = /515B960F/515CBD06;
 Reference = U203;
-ValeurCmp = LMV358IDGKR;
+ValeurCmp = LMV358IPWR;
 IdModule  = TSSOP8;
 EndCmp
 
