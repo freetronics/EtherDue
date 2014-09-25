@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name FT)(type KiCad)(uri library/freetronics_kicad_pcb_lib.pretty)(options "")(descr ""))
+)

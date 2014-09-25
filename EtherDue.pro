@@ -1,4 +1,4 @@
-update=Mon 14 Apr 2014 18:29:44 EST
+update=Thu 25 Sep 2014 10:24:23 AEST
 version=1
 last_client=eeschema
 [cvpcb]
@@ -49,8 +49,13 @@ LibName17=smd_ssop_packages
 LibName18=smd_transistors
 [eeschema]
 version=1
+PageLayoutDescrFile=
+SubpartIdSeparator=0
+SubpartFirstId=65
 LibDir=
-NetFmtName=
+NetFmtName=PcbnewAdvanced
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
 RptD_X=0
 RptD_Y=100
 RptLab=1

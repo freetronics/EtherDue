@@ -31,11 +31,11 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:EtherDue-cache
-EELAYER 27 0
+EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 7
+Sheet 5 7
 Title "EtherDue"
 Date "16 jan 2014"
 Rev ""
@@ -70,12 +70,12 @@ $EndComp
 $Comp
 L GND #PWR050
 U 1 1 51663F24
-P 8750 7050
-F 0 "#PWR050" H 8750 7050 30  0001 C CNN
-F 1 "GND" H 8750 6980 30  0001 C CNN
-F 2 "" H 8750 7050 60  0001 C CNN
-F 3 "" H 8750 7050 60  0001 C CNN
-	1    8750 7050
+P 10200 2350
+F 0 "#PWR050" H 10200 2350 30  0001 C CNN
+F 1 "GND" H 10200 2280 30  0001 C CNN
+F 2 "" H 10200 2350 60  0001 C CNN
+F 3 "" H 10200 2350 60  0001 C CNN
+	1    10200 2350
 	1    0    0    -1  
 $EndComp
 Text GLabel 1150 3300 0    60   Input ~ 0
@@ -86,31 +86,31 @@ Text GLabel 1150 3200 0    60   Input ~ 0
 MOSI
 Text GLabel 1150 3100 0    60   Input ~ 0
 MISO
-Text HLabel 7800 6400 0    60   Input ~ 0
+Text HLabel 9250 1700 0    60   Input ~ 0
 /MASTER-RESET
 $Comp
 L +3.3V #PWR051
 U 1 1 51663BD9
-P 8400 5800
-F 0 "#PWR051" H 8400 5760 30  0001 C CNN
-F 1 "+3.3V" H 8400 5910 30  0000 C CNN
-F 2 "" H 8400 5800 60  0001 C CNN
-F 3 "" H 8400 5800 60  0001 C CNN
-	1    8400 5800
+P 9850 1100
+F 0 "#PWR051" H 9850 1060 30  0001 C CNN
+F 1 "+3.3V" H 9850 1210 30  0000 C CNN
+F 2 "" H 9850 1100 60  0001 C CNN
+F 3 "" H 9850 1100 60  0001 C CNN
+	1    9850 1100
 	1    0    0    -1  
 $EndComp
 $Comp
 L APX811 U603
 U 1 1 51663B87
-P 8550 6400
-F 0 "U603" H 7550 5800 70  0000 L BNN
-F 1 "APX811-31UG-7" H 7550 5900 70  0000 L BNN
-F 2 "" H 8550 6400 60  0001 C CNN
-F 3 "" H 8550 6400 60  0001 C CNN
-	1    8550 6400
+P 10000 1700
+F 0 "U603" H 9000 1100 70  0000 L BNN
+F 1 "APX811-31UG-7" H 9000 1200 70  0000 L BNN
+F 2 "" H 10000 1700 60  0001 C CNN
+F 3 "" H 10000 1700 60  0001 C CNN
+	1    10000 1700
 	1    0    0    -1  
 $EndComp
-Text Notes 7400 5550 0    100  ~ 0
+Text Notes 8850 850  0    100  ~ 0
 W5100 Reset on Poweron
 $Comp
 L +3.3V #PWR052
@@ -274,7 +274,7 @@ F 3 "" H 7600 4200 60  0001 C CNN
 	1    7600 4200
 	1    0    0    -1  
 $EndComp
-Text Notes 650  7400 0    60   ~ 0
+Text Notes 700  7550 0    60   ~ 0
 For DC PoE with low voltage,\njumper 3(PoE_V+) to 4(VIN)\n& 2(PoE_V-) to 1(GND)
 $Comp
 L GND #PWR058
@@ -291,7 +291,7 @@ Text Label 2100 7000 2    60   ~ 0
 PoE_V-
 Text Label 2100 6900 2    60   ~ 0
 PoE_V+
-Text Notes 1100 6750 0    60   ~ 0
+Text Notes 1100 6650 0    60   ~ 0
 Direct feed to Arduino VIN
 Text GLabel 2100 6800 2    60   Input ~ 0
 VIN
@@ -412,8 +412,8 @@ F 3 "" H 2750 1400 60  0001 C CNN
 	1    2750 1400
 	1    0    0    -1  
 $EndComp
-Text Notes 4000 950  0    40   ~ 0
-1.8v decoupling:\n1 near 15/16,\n1 near 33
+Text Notes 4050 1000 0    47   ~ 0
+1.8v decoupling:\n1 near pins 15/16,\n1 near pin 33
 $Comp
 L GND #PWR064
 U 1 1 51662F42
@@ -771,8 +771,8 @@ F 3 "" H 1700 5950 60  0001 C CNN
 	2    1700 5950
 	-1   0    0    1   
 $EndComp
-Text Notes 550  3700 0    40   ~ 0
-/SCS & SS0 Behaviour:\n\nMISO pin tri-state\nby SS & /SCS\n\nSS0 low\nsimultaneously\ndrives SEN high\n-> SPI enabled\n& chip selected
+Text Notes 550  4250 0    47   ~ 0
+/SCS & SS0\nBehaviour:\n\nMISO pin tri-state\nby SS & /SCS\n\nSS0 low\nsimultaneously\ndrives SEN high\n-> SPI enabled\n& chip selected
 $Comp
 L RES_PACK4_IND R601
 U 1 1 5166193E
@@ -828,7 +828,7 @@ F 3 "" H 3950 3550 60  0001 C CNN
 	1    3950 3550
 	1    0    0    -1  
 $EndComp
-Text Notes 9700 6400 0    40   ~ 0
+Text Notes 8450 1200 0    47   ~ 0
 Reset IC - 140ms min, 280ms max\n< 3.08 Vrst, push-pull output
 $Comp
 L SJ SJ601
@@ -863,7 +863,7 @@ F 3 "~" H 8200 4600 30  0000 C CNN
 	1    8200 4600
 	0    -1   -1   0   
 $EndComp
-Text Label 9550 6400 2    60   ~ 0
+Text Label 11000 1700 2    60   ~ 0
 WIZRST
 Connection ~ 4800 1900
 Connection ~ 3050 1900
@@ -871,7 +871,7 @@ Connection ~ 3400 1900
 Connection ~ 5950 6600
 Connection ~ 3950 6600
 Wire Wire Line
-	8750 7050 8750 7000
+	10200 2350 10200 2300
 Wire Wire Line
 	1150 3200 2350 3200
 Wire Wire Line
@@ -1211,16 +1211,16 @@ Wire Wire Line
 	5800 6600 6350 6600
 Connection ~ 6100 6600
 Wire Wire Line
-	8400 5800 8550 5800
+	9850 1100 10000 1100
 Wire Wire Line
-	7900 6400 7800 6400
+	9350 1700 9250 1700
 Wire Wire Line
 	1150 3300 2350 3300
 Wire Wire Line
 	2350 3100 1150 3100
 Connection ~ 4000 1900
 Wire Wire Line
-	8750 7000 8550 7000
+	10200 2300 10000 2300
 Wire Wire Line
 	8250 3600 8250 3200
 Connection ~ 8250 3600
@@ -1229,9 +1229,13 @@ Wire Wire Line
 Wire Wire Line
 	8250 3200 8500 3200
 Wire Wire Line
-	9150 6400 9550 6400
+	10600 1700 11000 1700
 Wire Wire Line
 	6750 3850 6750 3700
 Connection ~ 6750 3700
 Connection ~ 6650 3500
+Wire Notes Line
+	8350 500  8350 2550
+Wire Notes Line
+	8350 2550 11200 2550
 $EndSCHEMATC

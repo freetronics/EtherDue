@@ -31,11 +31,11 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:EtherDue-cache
-EELAYER 27 0
+EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 6 7
 Title "EtherDue"
 Date "16 jan 2014"
 Rev ""
@@ -147,7 +147,7 @@ Wire Wire Line
 	3850 4800 3850 5600
 Connection ~ 3850 5100
 Connection ~ 3100 5600
-Text Notes 1450 4250 0    40   ~ 0
+Text Notes 1450 4250 0    59   ~ 0
 i2c address 0x50,\nCut jumpers if unwanted
 Text Notes 1300 1050 0    100  ~ 0
 MicroSD Card Slot\n
@@ -211,6 +211,6 @@ F 3 "" H 3100 4100 60  0000 C CNN
 	1    3100 4100
 	1    0    0    -1  
 $EndComp
-Text Notes 3200 4150 0    40   ~ 0
+Text Notes 3550 4300 0    59   ~ 0
 NB: This device could be run on 3.3V but it happens\nto be located in a section of the board above a 5V power\nplane, and it will happily run on 5V.
 $EndSCHEMATC
