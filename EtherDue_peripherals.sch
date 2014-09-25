@@ -41,8 +41,8 @@ Date "16 jan 2014"
 Rev ""
 Comp "(C) 2014 Freetronics Pty Ltd"
 Comment1 ""
-Comment2 "tapr.org/ohl"
-Comment3 "Licensed under TAPR Open Hardware License"
+Comment2 "Derived from Arduino Due Design - (C) Arduino SA"
+Comment3 "Licensed under Creative Commons Share-Alike"
 Comment4 "freetronics.com/etherdue"
 $EndDescr
 $Comp
