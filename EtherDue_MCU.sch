@@ -46,7 +46,7 @@ Comment3 "Licensed under TAPR Open Hardware License"
 Comment4 "freetronics.com/etherdue"
 $EndDescr
 Wire Wire Line
-	7700 8450 7700 10750
+	7700 10750 7700 8450
 Wire Wire Line
 	9500 8450 9500 8900
 Wire Wire Line
@@ -66,9 +66,9 @@ Wire Wire Line
 	7300 10400 7300 10750
 Connection ~ 6900 9900
 Wire Wire Line
-	7300 9900 6700 9900
+	6700 9900 7300 9900
 Wire Wire Line
-	7700 10750 6700 10750
+	6700 10750 7700 10750
 Wire Wire Line
 	5400 1150 5650 1150
 Connection ~ 6300 1100
@@ -85,7 +85,7 @@ Connection ~ 13000 2200
 Wire Wire Line
 	12650 2200 13000 2200
 Wire Wire Line
-	12500 8400 12400 8400
+	12400 8400 12800 8400
 Connection ~ 11550 8400
 Wire Wire Line
 	11800 8400 11550 8400
@@ -98,9 +98,9 @@ Wire Wire Line
 Wire Wire Line
 	5450 4300 5650 4300
 Wire Wire Line
-	5650 4200 4850 4200
+	4850 4200 5650 4200
 Wire Wire Line
-	5650 4000 4850 4000
+	4850 4000 5650 4000
 Wire Wire Line
 	3750 4900 3750 4750
 Connection ~ 3750 4150
@@ -117,7 +117,7 @@ Wire Wire Line
 	4250 3750 3400 3750
 Connection ~ 3000 3200
 Wire Wire Line
-	3000 3750 3000 2700
+	3000 2700 3000 3750
 Wire Wire Line
 	3400 2700 4250 2700
 Wire Wire Line
@@ -150,7 +150,7 @@ Wire Wire Line
 	10300 3700 10650 3700
 Connection ~ 10350 3450
 Wire Wire Line
-	10350 3550 10350 2700
+	10350 2700 10350 3550
 Wire Wire Line
 	10350 3550 10300 3550
 Connection ~ 10350 3250
@@ -160,7 +160,7 @@ Connection ~ 9650 2700
 Wire Wire Line
 	9650 2750 9650 2700
 Wire Wire Line
-	10350 2700 9450 2700
+	9450 2700 10350 2700
 Wire Wire Line
 	9450 2700 9450 2750
 Connection ~ 8950 2350
@@ -191,7 +191,7 @@ Connection ~ 7150 1100
 Wire Wire Line
 	7150 1150 7150 1100
 Wire Wire Line
-	7350 2750 7350 1100
+	7350 1100 7350 2750
 Wire Wire Line
 	6750 2750 6750 2550
 Wire Wire Line
@@ -209,7 +209,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 2750 7050 2650
 Wire Wire Line
-	7350 1100 7000 1100
+	7000 1100 7350 1100
 Wire Wire Line
 	6300 1750 6300 1650
 Wire Wire Line
@@ -221,9 +221,9 @@ Wire Wire Line
 	7650 2700 7650 2750
 Connection ~ 7750 2700
 Wire Wire Line
-	8250 2750 8250 2700
+	8250 2700 8250 2750
 Wire Wire Line
-	8250 2700 7550 2700
+	7550 2700 8250 2700
 Wire Wire Line
 	8350 2750 8350 2050
 Wire Wire Line
@@ -333,14 +333,14 @@ Wire Wire Line
 	4950 4300 4950 4200
 Connection ~ 4950 4200
 Wire Wire Line
-	4600 4400 4600 5250
+	4600 5250 4600 4400
 Wire Wire Line
 	4600 4400 5650 4400
 Wire Wire Line
-	4600 5250 3400 5250
+	3400 5250 4600 5250
 Connection ~ 3800 5250
 Wire Wire Line
-	3800 5850 3800 5700
+	3800 5700 3800 5850
 Connection ~ 3800 5750
 Wire Wire Line
 	5650 5000 5450 5000
@@ -449,11 +449,9 @@ Wire Wire Line
 Wire Wire Line
 	12000 9250 12000 9400
 Wire Wire Line
-	12000 9400 11250 9400
+	11250 9400 12800 9400
 Wire Wire Line
-	12200 8950 12500 8950
-Wire Wire Line
-	12500 8950 12500 7950
+	12500 7950 12500 8950
 Connection ~ 12500 8400
 Wire Wire Line
 	13000 2850 13000 3000
@@ -462,13 +460,13 @@ Wire Wire Line
 Wire Wire Line
 	13000 2150 13000 2250
 Wire Wire Line
-	8550 2750 8550 1900
+	8550 1900 8550 2750
 Wire Wire Line
 	8550 1900 8050 1900
 Wire Wire Line
-	9250 2750 9250 2350
+	9250 2350 9250 2750
 Wire Wire Line
-	9250 2350 8550 2350
+	8550 2350 9250 2350
 Wire Wire Line
 	6300 950  6300 1250
 Wire Wire Line
@@ -1349,4 +1347,22 @@ F 3 "~" H 7300 10150 30  0000 C CNN
 	1    7300 10150
 	1    0    0    -1  
 $EndComp
+$Comp
+L R R208
+U 1 1 54236A9E
+P 12800 8900
+F 0 "R208" V 12880 8900 40  0000 C CNN
+F 1 "10K" V 12807 8901 40  0000 C CNN
+F 2 "" V 12730 8900 30  0000 C CNN
+F 3 "" H 12800 8900 30  0000 C CNN
+	1    12800 8900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12800 8400 12800 8650
+Wire Wire Line
+	12500 8950 12200 8950
+Wire Wire Line
+	12800 9400 12800 9150
+Connection ~ 12000 9400
 $EndSCHEMATC
